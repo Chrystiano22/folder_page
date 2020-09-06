@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: #48C5CE;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.title {
+    font-size: 26px;
+}
+
+section {
+    padding: 35px;
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.formContainer {
+    max-width: 230px;
+    background-color: #ffffffBB;
+    padding: 20px;
+    float: right;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+footer {
+    background-color: #202121;
+    padding: 25px;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+    margin-right: 50px;
+
+}
+
+.description {
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+    text-align: justify;
+}
+
+.description p, .description h3 {
+    margin-bottom: 20px;
+}
+
+.description h3 {
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .formContainer {
+        float: none;
+        margin: auto;
+        font-size: 14px;
+    }
+    .picture {
+        max-width: 40%;
+        margin-bottom: 30px;
+        margin-right: 40px;
+    
+    }
+    .description {
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 14px;
+        max-width: 45%;
+    }
+    .description h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .title {
+        font-size: 18px;
+        line-height: 1.7;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .formContainer {
+        float: none;
+        margin: auto;
+        font-size: 14px;
+    }
+    .picture {
+        max-width: 40%;
+    
+    }
+    .description {
+        text-align: justify;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .description h3 {
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width: 410px) {
+    .title{
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .picture {
+        max-width: 30%;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    
+    }
+    .description {
+        max-width: 55%;
+        text-align: justify;
+        margin-left: 5px;
+        font-size: 13px;
+    }
+}
